@@ -20,6 +20,8 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
+      path
+
       signtool /?
       
       echo Hello world
